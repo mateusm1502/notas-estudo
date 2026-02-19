@@ -11,5 +11,7 @@ para utilizar o git na minha eu preciso configurar determinados comandos, sendo 
 git config global
 ````
 
-## como configurar github
+## como configurar o githup
 ## como configurar a maquina para github
+## como criar um repositorio
+
