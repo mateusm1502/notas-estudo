@@ -1,0 +1,52 @@
+//----------alert----------//
+Serve para exebir uma mensagem.
+
+//----------prompt---------//
+Ele ira nos permitir realizar dua acoes:
+.Mostrar uma pergunta.
+.Receber uma resposta do usuario.
+
+//----------prompt + variaveis----------//
+Aqui nesse algo poderoso: guardar respostas.
+. O valor digitadopode ser armazenado.
+. Variaveis passam a ter significado real.
+. O codigo comeca a reagir ao usuariosem variavel, a resposta se perde.
+
+//----------get elementbyid----------//
+Funcao: Retorna uma referencia ao elemento pelo seu ID.
+Uso Principal: Selecionar elementos unicos em uma pagina para manipulacao ou leitura de daods.
+
+//----------createlement----------//
+Funcao: Cria um novo elemento HTML.
+Uso principal: Adicionar novos elementos a pagina dinamicamente.
+
+//----------funcao----------//
+function exemplp() {
+}
+const buttonexemplo = document.getElementById("exemplo")
+buttonexemplo.addEventListener('click', () => { exemplo()})
+
+//----------if / else----------//
+O if e else sao estruturas condicionais que permitem executar diferentes blocos de codigo com base em uma condicao ou expressao booleana.
+
+//----------clone git----------//
+mateus62019916@JLE106D060770 MINGW64 ~
+$ cd documents/
+
+mateus62019916@JLE106D060770 MINGW64 ~/documents
+$ git clone git@github.com:mateusm1502/outrorepo.git
+Cloning into 'outrorepo'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (3/3), done.
+
+mateus62019916@JLE106D060770 MINGW64 ~/documents
+$ cd outrorepo/
+
+mateus62019916@JLE106D060770 MINGW64 ~/documents/outrorepo (main)
+$ code .
+
+mateus62019916@JLE106D060770 MINGW64 ~/documents/outrorepo (main)
+$
+
