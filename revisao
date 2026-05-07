@@ -50,3 +50,112 @@ $ code .
 mateus62019916@JLE106D060770 MINGW64 ~/documents/outrorepo (main)
 $
 
+
+
+
+/////////////////////////////////////////////////////
+
+
+
+import './style.css'
+
+function Footer() {
+    return ( 
+        <footer id="Footer"> 
+        <p> Minha API react - &copy; todos os direitos reservados</p>
+        </footer>
+    ) 
+    
+}
+
+export default Footer
+
+
+import './style.css'
+
+function Header () {
+    return (
+        <header>
+            <h1>Lista de mercado</h1>
+        </header>
+    )
+}
+
+export default Header
+
+
+import { Link } from 'react-router-dom'
+import './style.css'
+
+function About() {
+    return (
+        <>
+           <h2>Ola</h2>
+           <Link to="/">
+           <button>navegar para home</button>
+           </Link>
+        </>
+    )
+}
+
+export default About
+
+
+import { Link, Links } from 'react-router-dom'
+import './style.css'
+
+function Home() {
+    return (
+        <>
+           <h2>Bem-Vindo(a) ao meu sitema</h2>
+           <Link to="/about">
+           <button>navegar para about</button>      
+           </Link>
+        </>
+    )
+}
+
+export default Home 
+
+
+import { Link } from 'react-router-dom'
+import './style.css'
+import { useState } from 'react'
+function Ex1 () {
+   const [ nome, setNome ] = useState("")
+const [ preco, setPreco ] = useState("")
+ 
+ 
+function handleSubmit (event) {
+const resultado=preco
+    event.preventDefault();
+    console.log(nome,preco)
+}
+    return (
+        <>
+     <h2>colocar nome e preço</h2>
+        <form onSubmit={handleSubmit}>
+            <label>nome</label>
+            <input
+             type="text"
+             value={nome}
+             onChange={(event)=> setNome(event.target.value) }
+             />
+ 
+              <label>preço</label>
+              <input
+               type="preço"
+               value={preco}
+             onChange={(event)=> setPreco(event.target.value) }
+               />
+               
+                  <button type="submit">enviar</button>
+ 
+               
+        </form>
+        </>
+    )
+}
+ 
+export default Ex1
+ 
